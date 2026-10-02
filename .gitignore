@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# WhatsApp session data and logs
+*.session
+*.session.lock
+session/
+logs/
+*.log
+
+# Local databases and uploads
+*.db
+*.sqlite3
+uploads/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
